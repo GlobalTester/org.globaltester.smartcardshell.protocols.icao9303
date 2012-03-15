@@ -7,10 +7,8 @@ import org.globaltester.smartcardshell.protocols.ScshCommand;
 
 public class ProtocolProvider extends AbstractScshProtocolProvider {
 	
-	@SuppressWarnings("static-access")
 	public static String computeMRZCheckDigit(String str) {
-		MRZ mrz = new MRZ(str);
-		return mrz.computeCheckDigit(str);
+		return MRZ.computeCheckDigit(str);
 	}
 
 	@Override
