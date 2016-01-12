@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: GlobalTester ICAO 9303
 Bundle-SymbolicName: org.globaltester.smartcardshell.protocols.icao9303;singleton:=true
-Bundle-Version: 3.0.1.qualifier
+Bundle-Version: 3.0.1
 Bundle-Activator: org.globaltester.smartcardshell.protocols.icao9303.Activator
 Bundle-Vendor: HJP Consulting GmbH
 Require-Bundle: org.eclipse.core.runtime,
