@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: GlobalTester ICAO 9303
+Bundle-Name: GT Protocol ICAO 9303
 Bundle-SymbolicName: org.globaltester.smartcardshell.protocols.icao9303;singleton:=true
 Bundle-Version: 3.0.3
 Bundle-Activator: org.globaltester.smartcardshell.protocols.icao9303.Activator
