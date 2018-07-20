@@ -44,8 +44,10 @@ public class MRZ {
 				ctemp -= (byte) 0x37;
 			} else if ((ctemp >= '0') && (ctemp <= '9')) {
 				ctemp -= (byte) 0x30;
-			} else
+			} else {
 				ctemp = 0;
+			}
+			
 			csum += ctemp * weight[(i) % 3];
 		}
 
